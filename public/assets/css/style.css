@@ -32654,7 +32654,7 @@ fieldset:disabled .btn.btn-circle {
         padding-bottom: 0.5rem;
         overflow-y: auto;
         visibility: hidden;
-        background: #1e2228;
+        background: #f1f5fd;
         transition-timing-function: ease-in-out;
         transition-duration: 0.3s;
         transition-property: left, visibility;
@@ -32684,7 +32684,7 @@ fieldset:disabled .btn.btn-circle {
     }
 
     .offcanvas-header img {
-        max-width: 100%;
+        max-width: 90%;
         height: auto;
     }
 }

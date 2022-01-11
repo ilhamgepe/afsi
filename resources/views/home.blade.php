@@ -52,7 +52,7 @@
         <!-- /.container -->
     </section>
     {{-- program afsi --}}
-    <section class="wrapper bg-gray">
+    <section class="wrapper bg-soft-primary">
         <div class="container py-14 py-md-17">
             <div class="row text-center">
                 <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
@@ -149,7 +149,7 @@
         </div>
     </section>
     {{-- manfaat --}}
-    <section class="wrapper bg-gray">
+    <section class="wrapper bg-soft-primary">
         <div class="container py-14 py-md-17">
             <p class="text-dark display-4 text-center">Manfaat mengikuti pelatihan menjadi academy partner AFSI</p>
             <div class="row py-6 d-flex justify-content-between">
@@ -266,10 +266,10 @@
     </section>
 
     {{-- workshop --}}
-    <section class="wrapper bg-gray">
+    <section class="wrapper bg-soft-primary">
         <div class="container py-14 py-md-17">
             <div class="row d-flex justify-content-center">
-                <div class="carousel owl-carousel" data-margin="30" data-nav="false" data-dots="true" data-autoplay="true"
+                <div class="carousel owl-carousel" data-margin="15" data-nav="false" data-dots="true" data-autoplay="true"
                     data-loop="true" data-autoplay-timeout="5000"
                     data-responsive='{"0":{"items": "1"}, "768":{"items": "2"}, "992":{"items": "2"}, "1200":{"items": "3"}}'>
                     <div class="item">
