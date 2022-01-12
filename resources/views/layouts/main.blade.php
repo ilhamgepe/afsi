@@ -9,11 +9,10 @@
     <link rel="stylesheet" href="{{ asset('assets/css/plugins.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/colors/purple.css') }}">
-    {{-- <link rel="stylesheet" href="{{ asset('asset/bs/css/bootstrap.min.css') }}"> --}}
-    <link rel="stylesheet" href="{{ asset('css/mystyle.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 
-<body>
+<body class="">
     <div class="content-wrapper overflow-hidden">
         <header class="wrapper bg-soft-primary">
             @include('layouts.navbar')

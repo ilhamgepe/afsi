@@ -13,20 +13,56 @@
                     <div class="input-group mb-3">
                         <input type="text" class="form-control" placeholder="Cari Kursus Berdasarkan Minat"
                             aria-label="Cari Kursus Berdasarkan Minat" aria-describedby="button-addon2">
-                        <button class="btn btn-afsi" type="button" id="button-addon2">Search</button>
+                        <button class="btn btn-afsi " type="button" id="button-addon2">Search</button>
                     </div>
                 </div>
                 <!--/column -->
                 <div class="col-lg-5 offset-lg-1">
                     <div class="basic-slider owl-carousel dots-over shadow-lg" data-nav="true" data-margin="5">
-                        <div class="item"><img src="./assets/img/photos/about21.jpg"
-                                srcset="./assets/img/photos/about21@2x.jpg 2x" class="rounded" alt="" />
+                        <div class="item"><img src="{{ asset('img/kegiatan-afsi/1.jpg') }}"
+                                srcset="{{ asset('img/kegiatan-afsi/1.jpg') }}" class="rounded" alt="" />
                         </div>
-                        <div class="item light-gallery-wrapper"><img src="./assets/img/photos/about22.jpg"
-                                srcset="./assets/img/photos/about22@2x.jpg 2x" class="rounded" alt="" />
+                        <div class="item"><img src="{{ asset('img/kegiatan-afsi/2.jpg') }}"
+                                srcset="{{ asset('img/kegiatan-afsi/2.jpg') }}" class="rounded" alt="" />
                         </div>
-                        <div class="item"><img src="./assets/img/photos/about23.jpg"
-                                srcset="./assets/img/photos/about23@2x.jpg 2x" class="rounded" alt="" />
+                        <div class="item"><img src="{{ asset('img/kegiatan-afsi/3.jpg') }}"
+                                srcset="{{ asset('img/kegiatan-afsi/3.jpg') }}" class="rounded" alt="" />
+                        </div>
+                        <div class="item"><img src="{{ asset('img/kegiatan-afsi/4.jpg') }}"
+                                srcset="{{ asset('img/kegiatan-afsi/4.jpg') }}" class="rounded" alt="" />
+                        </div>
+                        <div class="item"><img src="{{ asset('img/kegiatan-afsi/5.jpg') }}"
+                                srcset="{{ asset('img/kegiatan-afsi/5.jpg') }}" class="rounded" alt="" />
+                        </div>
+                        <div class="item"><img src="{{ asset('img/kegiatan-afsi/6.jpg') }}"
+                                srcset="{{ asset('img/kegiatan-afsi/6.jpg') }}" class="rounded" alt="" />
+                        </div>
+                        <div class="item"><img src="{{ asset('img/kegiatan-afsi/7.jpg') }}"
+                                srcset="{{ asset('img/kegiatan-afsi/7.jpg') }}" class="rounded" alt="" />
+                        </div>
+                        <div class="item"><img src="{{ asset('img/kegiatan-afsi/8.jpg') }}"
+                                srcset="{{ asset('img/kegiatan-afsi/8.jpg') }}" class="rounded" alt="" />
+                        </div>
+                        <div class="item"><img src="{{ asset('img/kegiatan-afsi/9.jpg') }}"
+                                srcset="{{ asset('img/kegiatan-afsi/9.jpg') }}" class="rounded" alt="" />
+                        </div>
+                        <div class="item"><img src="{{ asset('img/kegiatan-afsi/10.jpg') }}"
+                                srcset="{{ asset('img/kegiatan-afsi/10.jpg') }}" class="rounded" alt="" />
+                        </div>
+                        <div class="item"><img src="{{ asset('img/kegiatan-afsi/11.jpg') }}"
+                                srcset="{{ asset('img/kegiatan-afsi/11.jpg') }}" class="rounded" alt="" />
+                        </div>
+                        <div class="item"><img src="{{ asset('img/kegiatan-afsi/12.jpg') }}"
+                                srcset="{{ asset('img/kegiatan-afsi/12.jpg') }}" class="rounded" alt="" />
+                        </div>
+                        <div class="item"><img src="{{ asset('img/kegiatan-afsi/13.jpg') }}"
+                                srcset="{{ asset('img/kegiatan-afsi/13.jpg') }}" class="rounded" alt="" />
+                        </div>
+                        <div class="item"><img src="{{ asset('img/kegiatan-afsi/14.jpg') }}"
+                                srcset="{{ asset('img/kegiatan-afsi/14.jpg') }}" class="rounded" alt="" />
+                        </div>
+                        <div class="item"><img src="{{ asset('img/kegiatan-afsi/15.jpg') }}"
+                                srcset="{{ asset('img/kegiatan-afsi/15.jpg') }}" class="rounded" alt="" />
                         </div>
                     </div>
                     <!-- /.basic-slider -->
@@ -40,8 +76,8 @@
     {{-- AAP --}}
     <section class="wrapper bg-light text-center">
         <div class="container py-14 py-md-17">
-            <h3 class="display-4">AFSI Academic Partner (AAP)</h3>
-            <p class="text-lg">AFSI Academic Partner merupakan program kerja sama pendidikan dan pelatihan antara
+            <h3 class="display-4 mb-5">AFSI Academic Partner (AAP)</h3>
+            <p class="tw-text-lg">AFSI Academic Partner merupakan program kerja sama pendidikan dan pelatihan antara
                 perguruan tinggi dengan
                 Asosiasi Fintech Syariah Indonesia (AFSI). Kerja sama ini diperuntukkan bagi instansi akademik yang ingin
                 membekali civitas akademikanya dengan kompetensi di bidang fintech syariah.Program ini merupakan bagian dari
@@ -93,7 +129,8 @@
                                     <p class="card-title fs-24 text-lg fw-700 text-dark">Workshop Fintech Syariah..</p>
                                 </a>
                                 <p class="card-subtitle mb-2 text-muted">Card subtitle</p>
-                                <p>Pelatihan Workshop Fintech Syariah yang di khususkan untuk dosen demi meningkatkan
+                                <p class="">Pelatihan Workshop Fintech Syariah yang di khususkan untuk
+                                    dosen demi meningkatkan
                                     pengetahuan dalam bidang syariah</p>
                                 <button class="btn btn-afsi">Ikuti program</button>
                             </div>
@@ -132,18 +169,20 @@
     <section class="wrapper bg-light">
         <div class="container py-14 py-md-17">
             <div class="row position-relative">
-                <div class="col-12 col-lg-6 pt-10 order-2 order-lg-1">
-                    <p class="text-afsi2 fw-500 text-lg">About</p>
-                    <p class="display-4 text-dark">TujuanAFSI Academic Partner (AAP)</p>
-                    <ul class="unordered-list bullet-aqua">
-                        <li>Aenean eu leo quam pellentesque.</li>
-                        <li>Nullam quis risus eget urna mollis.</li>
-                        <li>Donec id elit non mi porta gravida.</li>
-                        <li>Fusce dapibus, tellus ac cursus.</li>
-                    </ul>
+                <div class="col-12 col-lg-6 pt-10 order-2 order-lg-1 tw-flex tw-justify-center">
+                    <div class="">
+                        <p class="text-afsi2 fw-500 text-lg">About</p>
+                        <p class="display-4 text-dark">TujuanAFSI Academic Partner (AAP)</p>
+                        <ul class="unordered-list bullet-aqua">
+                            <li>Membangun kolaborasi ekosistem fintech syariah di Indonesia</li>
+                            <li>Meningkatkan literasi fintech syariah di kalanganmahasiswa</li>
+                            <li>Penguatan sumberdaya insani untuk industri fintech syariah di Indonesia</li>
+                            <li>Peningkatan penelitian dan pengembangan di bidang fintech syariah.</li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="col-12 col-lg-6 position-relative order-1 order-lg-2">
-                    <img class="img-fluid" src="{{ asset('img/lady-in-smile.png') }}" alt="">
+                    <img class="img-fluid tw-mx-auto" src="{{ asset('img/lady-in-smile.png') }}" alt="">
                 </div>
             </div>
         </div>
@@ -153,29 +192,39 @@
         <div class="container py-14 py-md-17">
             <p class="text-dark display-4 text-center">Manfaat mengikuti pelatihan menjadi academy partner AFSI</p>
             <div class="row py-6 d-flex justify-content-between">
-                <div class="col-12 col-lg-3">
-                    <img class="bg-gradient-purple p-3 rounded" src="{{ asset('img/icon-home-data.png') }}" alt="">
-                    <p class="display-6 fw-500 text-dark pt-2">Daftar dengan mudah menjadi anggota</p>
-                    <p class="text-normal">kami mencari anak muda yang memiliki rasa generosity yang mampu membentuk
+                <div class="col-12 col-lg-3 tw-py-6">
+                    <img class="bg-gradient-purple p-3 rounded tw-mx-auto lg:tw-ml-0"
+                        src="{{ asset('img/icon-home-data.png') }}" alt="">
+                    <p class="display-6 fw-500 text-dark pt-2 tw-text-center lg:tw-text-left">Daftar dengan mudah menjadi
+                        anggota
+                    </p>
+                    <p class="text-normal tw-text-center lg:tw-text-left">kami mencari anak muda yang memiliki rasa
+                        generosity yang mampu membentuk
                         karakter dengan baik.</p>
                 </div>
-                <div class="col-12 col-lg-3">
-                    <img class="bg-gradient-aqua p-3 rounded" src="{{ asset('img/icon-home-teach.png') }}" alt="">
-                    <p class="display-6 fw-500 text-dark pt-2">Daftar dengan mudah menjadi anggota</p>
-                    <p class="text-normal">kami mencari anak muda yang memiliki rasa generosity yang mampu membentuk
+                <div class="col-12 col-lg-3 tw-py-6">
+                    <img class="bg-gradient-aqua p-3 rounded tw-mx-auto lg:tw-ml-0"
+                        src="{{ asset('img/icon-home-teach.png') }}" alt="">
+                    <p class="display-6 fw-500 text-dark pt-2 tw-text-center lg:tw-text-left">Daftar dengan mudah menjadi
+                        anggota</p>
+                    <p class="text-normal tw-text-center lg:tw-text-left">kami mencari anak muda yang memiliki rasa
+                        generosity yang mampu membentuk
                         karakter dengan baik.</p>
                 </div>
-                <div class="col-12 col-lg-3">
-                    <img class="bg-gradient-orange p-3 rounded" src="{{ asset('img/icon-home-cert.png') }}" alt="">
-                    <p class="display-6 fw-500 text-dark pt-2">Daftar dengan mudah menjadi anggota</p>
-                    <p class="text-normal">kami mencari anak muda yang memiliki rasa generosity yang mampu membentuk
+                <div class="col-12 col-lg-3 tw-py-6">
+                    <img class="bg-gradient-orange p-3 rounded tw-mx-auto lg:tw-ml-0"
+                        src="{{ asset('img/icon-home-cert.png') }}" alt="">
+                    <p class="display-6 fw-500 text-dark pt-2 tw-text-center lg:tw-text-left">Daftar dengan mudah menjadi
+                        anggota</p>
+                    <p class="text-normal tw-text-center lg:tw-text-left">kami mencari anak muda yang memiliki rasa
+                        generosity yang mampu membentuk
                         karakter dengan baik.</p>
                 </div>
             </div>
             <div class="row position-relative">
-                <div class="col-12 col-lg-6 pt-10 order-2 order-lg-1">
-                    <p class="display-6 text-dark">Maanfaat bagi perguruan tinggi</p>
-                    <ul class="unordered-list bullet-aqua">
+                <div class="col-12 col-lg-6 pt-10 order-2 order-lg-1 tw-py-5 ">
+                    <p class="display-6 text-dark py-5 tw-text-center lg:tw-text-left">Maanfaat bagi perguruan tinggi</p>
+                    <ul class="unordered-list bullet-aqua ">
                         <li>Mendapatkan sertifikat AFSI Academic partner untuk perguruan tinggi</li>
                         <li>Mendapatkan sertifikat pelatihan fintech syariah untuk dosen yang telah mengikuti worksho
                         </li>
@@ -184,7 +233,7 @@
                         <li>Kerjasama penelitian dan pengembangan di bidang fintech syariah</li>
                         <li>Nama dan logo perusahaan tinggi akan di cantumkan di website AFSI</li>
                     </ul>
-                    <p class="display-6 text-dark">Maanfaat bagi mahasiswa</p>
+                    <p class="display-6 text-dark py-5 tw-text-center lg:tw-text-left">Maanfaat bagi mahasiswa</p>
                     <ul class="unordered-list bullet-aqua">
                         <li>Mahasiswa mendapatkan sertifikat pelatihan yang dikeluarkan oleh Asosiasi Fintech Syariah
                             indonesia (AFSI) setelah mengikuti pelatihan yang di selenggarakan perguruan tinggi bekerja
@@ -208,8 +257,8 @@
                 Syariah
                 Indonesia</p>
             <h2 class="fs-15 text-uppercase text-muted text-center mb-8">Trusted by Over 5000 Clients</h2>
-            <div class="row d-flex justify-content-center">
-                <div class="col-12 col-md-3 col-lg-2 text-center">
+            <div class="row d-flex">
+                <div class="col-12 col-md-3 col-lg-2 mx-auto">
                     <img class="mb-3" src="{{ asset('img/ats.png') }}" alt="" width="135" height="135" />
                     <p class="fw-500 text-dark pb-0">ALAMI Teknologi Shariah</p>
                 </div>

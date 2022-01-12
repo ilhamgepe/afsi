@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@layer components {
+    .btn-afsi {
+        @apply tw-bg-[#1C9FA7] tw-text-white;
+    }
+    .btn-afsi:hover {
+        @apply tw-bg-[#0E6095] tw-text-white tw-transition-all tw-duration-200;
+    }
+    .btn-afsi2 {
+        @apply tw-bg-[#0E6095];
+    }
+}
+/* body {
+    font-family: "roboto", serif;
+} */
+
+/* utilities */
+.z-1 {
+    z-index: 10;
+}
+.z-2 {
+    z-index: 20;
+}
+.z-3 {
+    z-index: 30;
+}
+.z-4 {
+    z-index: 40;
+}
+.z-5 {
+    z-index: 50;
+}
+
+.center-x-y {
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+    position: absolute;
+}
+.center-x {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.text-afsi2 {
+    color: #1c9fa7;
+}
+.text-salmon {
+    color: #ffbc96 !important;
+}
+.btn-outline-afsi {
+    color: #54a8c7;
+    border-color: #1c9da6;
+}
+.btn-outline-afsi:hover {
+    color: #fff;
+    background-color: #1c9da6;
+    border-color: #1c9da6;
+}
+
+/* height width */
+.overlay-login {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: linear-gradient(180deg, #20afab 0%, #20af84 100%);
+    z-index: 10;
+    opacity: 0.5;
+}
+.text-login-overlay {
+    position: absolute;
+    z-index: 50;
+}
+/* color */
+.afsi {
+    color: #0e6095;
+}
+.text-afsi2 {
+    color: #20afab;
+}
+.bg-gradient-purple {
+    background: linear-gradient(180deg, #847afb 0%, #5a27ee 100%);
+}
+.bg-gradient-aqua {
+    background: linear-gradient(180deg, #69ece8 0%, #20afab 100%);
+}
+.bg-gradient-orange {
+    background: linear-gradient(180deg, #ffd583 0%, #e95454 100%);
+}
+/* login */
+
+/* workshop */
+.card-workshop {
+    max-width: 16rem;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.card-workshop .overlay-workshop {
+    max-height: 50%;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    bottom: 0;
+    background: linear-gradient(
+        181.99deg,
+        #040035 -10.7%,
+        rgba(196, 196, 196, 0) 244.45%
+    );
+    box-sizing: border-box;
+    /* min-width: 50%; */
+}
