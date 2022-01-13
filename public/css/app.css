@@ -450,17 +450,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .tw-justify-center {
   justify-content: center;
 }
-.tw-bg-primary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(28 159 167 / var(--tw-bg-opacity));
-}
 .tw-bg-red-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(248 113 113 / var(--tw-bg-opacity));
-}
-.tw-bg-green-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(74 222 128 / var(--tw-bg-opacity));
 }
 .tw-py-6 {
   padding-top: 1.5rem;
@@ -472,9 +464,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .tw-text-center {
   text-align: center;
-}
-.tw-align-middle {
-  vertical-align: middle;
 }
 .tw-text-lg {
   font-size: 1.125rem;
@@ -591,10 +580,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:tw-text-left {
     text-align: left;
-  }
-
-  .lg\:tw-text-center {
-    text-align: center;
   }
 }
 

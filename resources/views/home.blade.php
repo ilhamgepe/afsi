@@ -250,64 +250,65 @@
             </div>
     </section>
 
-    {{-- parner --}}
+    {{-- partner --}}
     <section class="wrapper bg-light">
         <div class="container py-14 py-md-17">
             <p class="display-4 text-dark text-center">Keanggotaan <span class="text-afsi2">Asosiasi Fintech</span>
                 Syariah
                 Indonesia</p>
             <h2 class="fs-15 text-uppercase text-muted text-center mb-8">Trusted by Over 5000 Clients</h2>
+
             <div class="row d-flex">
-                <div class="col-12 col-md-3 col-lg-2 mx-auto">
-                    <img class="mb-3" src="{{ asset('img/ats.png') }}" alt="" width="135" height="135" />
-                    <p class="fw-500 text-dark pb-0">ALAMI Teknologi Shariah</p>
+                <div class="col-12 col-md-3 col-lg-2">
+                    <img class="mb-3 mx-auto" src="{{ asset('img/ats.png') }}" alt="" width="135" height="135" />
+                    <p class="fw-500 text-dark pb-0 tw-text-center">ALAMI Teknologi Shariah</p>
                 </div>
-                <div class="col-12 col-md-3 col-lg-2 text-center">
-                    <img class="mb-3" src="{{ asset('img/upn.png') }}" alt="" width="135" height="135" />
-                    <p class="fw-500 text-dark pb-0">Falkutas Ekonomi dan Bisnis UPN Veteran Jakarta</p>
+                <div class="col-12 col-md-3 col-lg-2">
+                    <img class="mb-3 mx-auto" src="{{ asset('img/upn.png') }}" alt="" width="135" height="135" />
+                    <p class="fw-500 text-dark pb-0 tw-text-center">Falkutas Ekonomi dan Bisnis UPN Veteran Jakarta</p>
                 </div>
-                <div class="col-12 col-md-3 col-lg-2 text-center">
-                    <img class="mb-3" src="{{ asset('img/univ-islam-bandung.png') }}" alt="" width="135"
+                <div class="col-12 col-md-3 col-lg-2">
+                    <img class="mb-3 mx-auto" src="{{ asset('img/univ-islam-bandung.png') }}" alt="" width="135"
                         height="135" />
-                    <p class="fw-500 text-dark pb-0">Falkutas Shariah Universitas Islam Bandung</p>
+                    <p class="fw-500 text-dark pb-0 tw-text-center">Falkutas Shariah Universitas Islam Bandung</p>
                 </div>
-                <div class="col-12 col-md-3 col-lg-2 text-center">
-                    <img class="mb-3" src="{{ asset('img/hibra.png') }}" alt="" width="135" height="135" />
-                    <p class="fw-500 text-dark pb-0">HIBRA CONSULTING</p>
+                <div class="col-12 col-md-3 col-lg-2">
+                    <img class="mb-3 mx-auto" src="{{ asset('img/hibra.png') }}" alt="" width="135" height="135" />
+                    <p class="fw-500 text-dark pb-0 tw-text-center">HIBRA CONSULTING</p>
                 </div>
-                <div class="col-12 col-md-3 col-lg-2 text-center">
-                    <img class="mb-3" src="{{ asset('img/hijrah.png') }}" alt="" width="135" height="135" />
-                    <p class="fw-500 text-dark pb-0 mt-0">HIJRAH NUSWANTARA</p>
+                <div class="col-12 col-md-3 col-lg-2">
+                    <img class="mb-3 mx-auto" src="{{ asset('img/hijrah.png') }}" alt="" width="135" height="135" />
+                    <p class="fw-500 text-dark pb-0 tw-text-center mt-0">HIJRAH NUSWANTARA</p>
                 </div>
-                <div class="col-12 col-md-3 col-lg-2 text-center">
-                    <img class="mb-3" src="{{ asset('img/aladin.png') }}" alt="" width="135" height="135" />
-                    <p class="fw-500 text-dark pb-0 mt-0">PT Bank Aladin Syariah Tbk</p>
+                <div class="col-12 col-md-3 col-lg-2">
+                    <img class="mb-3 mx-auto" src="{{ asset('img/aladin.png') }}" alt="" width="135" height="135" />
+                    <p class="fw-500 text-dark pb-0 tw-text-center mt-0">PT Bank Aladin Syariah Tbk</p>
                 </div>
-                <div class="col-12 col-md-3 col-lg-2 text-center">
-                    <img class="mb-3" src="{{ asset('img/kresya.png') }}" alt="" width="135" height="135" />
-                    <p class="fw-500 text-dark pb-0 mt-0">Kresya</p>
+                <div class="col-12 col-md-3 col-lg-2">
+                    <img class="mb-3 mx-auto" src="{{ asset('img/kresya.png') }}" alt="" width="135" height="135" />
+                    <p class="fw-500 text-dark pb-0 tw-text-center mt-0">Kresya</p>
                 </div>
-                <div class="col-12 col-md-3 col-lg-2 text-center">
-                    <img class="mb-3" src="{{ asset('img/alumni.png') }}" alt="" width="135" height="135" />
-                    <p class="fw-500 text-dark pb-0 mt-0">PT ALUMNIA SINERGI ADIKARSA</p>
+                <div class="col-12 col-md-3 col-lg-2">
+                    <img class="mb-3 mx-auto" src="{{ asset('img/alumni.png') }}" alt="" width="135" height="135" />
+                    <p class="fw-500 text-dark pb-0 tw-text-center mt-0">PT ALUMNIA SINERGI ADIKARSA</p>
                 </div>
-                <div class="col-12 col-md-3 col-lg-2 text-center">
-                    <img class="mb-3" src="{{ asset('img/bank-riau.png') }}" alt="" width="135"
+                <div class="col-12 col-md-3 col-lg-2">
+                    <img class="mb-3 mx-auto" src="{{ asset('img/bank-riau.png') }}" alt="" width="135"
                         height="135" />
-                    <p class="fw-500 text-dark pb-0 mt-0">PT Bank Riau Kepri</p>
+                    <p class="fw-500 text-dark pb-0 tw-text-center mt-0">PT Bank Riau Kepri</p>
                 </div>
-                <div class="col-12 col-md-3 col-lg-2 text-center">
-                    <img class="mb-3" src="{{ asset('img/efunding.png') }}" alt="" width="135" height="135" />
-                    <p class="fw-500 text-dark pb-0 mt-0">PT Efunding Teknologi Keuangan</p>
+                <div class="col-12 col-md-3 col-lg-2">
+                    <img class="mb-3 mx-auto" src="{{ asset('img/efunding.png') }}" alt="" width="135" height="135" />
+                    <p class="fw-500 text-dark pb-0 tw-text-center mt-0">PT Efunding Teknologi Keuangan</p>
                 </div>
-                <div class="col-12 col-md-3 col-lg-2 text-center">
-                    <img class="mb-3" src="{{ asset('img/dana-syariah.png') }}" alt="" width="135"
+                <div class="col-12 col-md-3 col-lg-2">
+                    <img class="mb-3 mx-auto" src="{{ asset('img/dana-syariah.png') }}" alt="" width="135"
                         height="135" />
-                    <p class="fw-500 text-dark pb-0 mt-0">PT Dana Syariah Indonesia</p>
+                    <p class="fw-500 text-dark pb-0 tw-text-center mt-0">PT Dana Syariah Indonesia</p>
                 </div>
-                <div class="col-12 col-md-3 col-lg-2 text-center">
-                    <img class="mb-3" src="{{ asset('img/elitery.png') }}" alt="" width="135" height="135" />
-                    <p class="fw-500 text-dark pb-0 mt-0">PT Data Sinergi Tama Jaya</p>
+                <div class="col-12 col-md-3 col-lg-2">
+                    <img class="mb-3 mx-auto" src="{{ asset('img/elitery.png') }}" alt="" width="135" height="135" />
+                    <p class="fw-500 text-dark pb-0 tw-text-center mt-0">PT Data Sinergi Tama Jaya</p>
                 </div>
             </div>
             <!-- /.owl-carousel -->
@@ -362,6 +363,21 @@
                                         <small class="text-white lh-1">16:30-18:00</small>
                                     </a>
                                     <img src="{{ asset('img/workshop3.png') }}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div href="#" class="items-owl-carousel col-lg-12">
+                            <div class=" position-relative">
+                                <div class="card card-workshop overflow-hidden position-relative card--elevated">
+                                    <a href="#" class="position-absolute w-100 overlay-workshop container py-3">
+                                        <p class="text-white card-title">Teknologi Cloud Computing</p>
+                                        <small class="text-white lh-1">22 november 2021</small>
+                                        <br>
+                                        <small class="text-white lh-1">16:30-18:00</small>
+                                    </a>
+                                    <img src="{{ asset('img/workshop1.png') }}" alt="">
                                 </div>
                             </div>
                         </div>
