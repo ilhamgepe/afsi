@@ -3,7 +3,11 @@
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-@layer components {
+@layer base {
+    /* navbar */
+    .tw-active {
+        @apply tw-font-bold tw-underline tw-underline-offset-8;
+    }
     .btn-afsi {
         @apply tw-bg-[#1C9FA7] tw-text-white;
     }
@@ -31,7 +35,7 @@
 }
 
 .text-afsi2 {
-    color: #1c9fa7;
+    color: #1c9fa7 !important;
 }
 .text-salmon {
     color: #ffbc96 !important;
@@ -61,13 +65,7 @@
     position: absolute;
     z-index: 50;
 }
-/* color */
-.afsi {
-    color: #0e6095;
-}
-.text-afsi2 {
-    color: #20afab;
-}
+
 .bg-gradient-purple {
     background: linear-gradient(180deg, #847afb 0%, #5a27ee 100%);
 }

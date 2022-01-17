@@ -1,7 +1,10 @@
 @extends('layouts.main')
+@section('title', 'Home')
+
 
 @section('section-content')
     {{-- hero --}}
+    {{-- @DD(request()->is('/')) --}}
     <section class="wrapper bg-soft-primary">
         <div class="container pt-18 pb-16" style="z-index: 5; position:relative">
             <div class="row gx-0 gy-12 align-items-center">
@@ -119,7 +122,7 @@
                                 <p class="card-subtitle mb-2 text-muted">Card subtitle</p>
                                 <p>Pelatihan Workshop Fintech Syariah yang di khususkan untuk dosen demi meningkatkan
                                     pengetahuan dalam bidang syariah</p>
-                                <button class="btn btn-afsi">Ikuti program</button>
+                                <button class="btn btn-afsi mt-3">Ikuti program</button>
                             </div>
                         </div>
                         <div class="card">
@@ -132,7 +135,7 @@
                                 <p class="">Pelatihan Workshop Fintech Syariah yang di khususkan untuk
                                     dosen demi meningkatkan
                                     pengetahuan dalam bidang syariah</p>
-                                <button class="btn btn-afsi">Ikuti program</button>
+                                <button class="btn btn-afsi mt-3">Ikuti program</button>
                             </div>
                         </div>
                         <div class="card">
@@ -144,7 +147,7 @@
                                 <p class="card-subtitle mb-2 text-muted">Card subtitle</p>
                                 <p>Pelatihan Workshop Fintech Syariah yang di khususkan untuk dosen demi meningkatkan
                                     pengetahuan dalam bidang syariah</p>
-                                <button class="btn btn-afsi">Ikuti program</button>
+                                <button class="btn btn-afsi mt-3">Ikuti program</button>
                             </div>
                         </div>
                         <div class="card">
@@ -156,7 +159,7 @@
                                 <p class="card-subtitle mb-2 text-muted">Card subtitle</p>
                                 <p>Pelatihan Workshop Fintech Syariah yang di khususkan untuk dosen demi meningkatkan
                                     pengetahuan dalam bidang syariah</p>
-                                <button class="btn btn-afsi">Ikuti program</button>
+                                <button class="btn btn-afsi mt-3">Ikuti program</button>
                             </div>
                         </div>
                     </div>

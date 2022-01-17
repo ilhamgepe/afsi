@@ -7,15 +7,26 @@
         </div>
         <div class="navbar-collapse offcanvas-nav">
             <div class="offcanvas-header d-lg-none d-xl-none text-center">
-                <a href="/"><img src="{{ asset('img/afsi.png') }}" alt="" /></a>
+                <a href="/"><img src="{{ asset('img/afsi-white.png') }}" alt="" width="132" height="132" /></a>
                 <button type="button" class="btn-close btn-close-white offcanvas-close offcanvas-nav-close"
                     aria-label="Close"></button>
             </div>
             <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link text-afsi" href="#">Home</a></li>
-                <li class="nav-item"><a class="nav-link text-afsi" href="#">About</a></li>
-                <li class="nav-item"><a class="nav-link text-afsi" href="#">Materi Afsi</a></li>
-                <li class="nav-item"><a class="nav-link text-afsi" href="#">Program</a></li>
+                <li class="nav-item"><a
+                        class="nav-link hover:tw--translate-y-1 tw-text-base tw-text-primary2 tw-transition-all tw-duration-200 tw-ease-linear {{ request()->is('/') ? 'tw-active' : '' }}"
+                        href="#">Home</a>
+                </li>
+                <li class="nav-item"><a
+                        class="nav-link hover:tw--translate-y-1 tw-text-base tw-text-primary2 tw-transition-all tw-duration-200 tw-ease-linear {{ request()->is('/about') ? 'active' : '' }}"
+                        href="#">About</a></li>
+                <li class="nav-item"><a
+                        class="nav-link hover:tw--translate-y-1 tw-text-base tw-text-primary2 tw-transition-all tw-duration-200 tw-ease-linear {{ request()->is('/materi-afsi') ? 'active' : '' }}"
+                        href="#">Materi
+                        Afsi</a></li>
+                <li class="nav-item"><a
+                        class="nav-link hover:tw--translate-y-1 tw-text-base tw-text-primary2 tw-transition-all tw-duration-200 tw-ease-linear {{ request()->is('/program') ? 'active' : '' }}"
+                        href="#">Program</a>
+                </li>
             </ul>
             <!-- /.navbar-nav -->
         </div>
