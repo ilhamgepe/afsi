@@ -322,7 +322,7 @@
     <section class="wrapper bg-soft-primary">
         <div class="container py-14 py-md-17">
             <div class="row d-flex justify-content-center">
-                <div class="carousel owl-carousel" data-margin="15" data-nav="false" data-dots="true" data-autoplay="true"
+                <div class="carousel owl-carousel" data-margin="5" data-nav="false" data-dots="true" data-autoplay="true"
                     data-loop="true" data-autoplay-timeout="5000"
                     data-responsive='{"0":{"items": "1"}, "768":{"items": "2"}, "992":{"items": "2"}, "1200":{"items": "3"}}'>
                     <div class="item">
